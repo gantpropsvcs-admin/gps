@@ -4,9 +4,14 @@ slug: ''
 title: Gant Professional Services
 featuredImage: '../images/homehero.png'
 subtitle: |-
-  Admin. Social media. IT. Graphics Design.  
+  ### | Assistance | Social media | IT | Graphic Design |  
 
   ## ***Virtually.***
+accordion:
+  - content: 'Providing virtual assistant support wherever need it, from anywhere'
+    title: Virtual Assistant
+  - content: 'Get your message out there, across platforms and on time'
+    title: Social Media Management
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
