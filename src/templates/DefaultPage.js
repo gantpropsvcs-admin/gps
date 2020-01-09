@@ -11,19 +11,32 @@ export const DefaultPageTemplate = ({
   title,
   subtitle,
   featuredImage,
-  body
+  section1,
+  section2,
+  accordion,
+  body,
 }) => (
-  <main className="DefaultPage">
+  <main>
     <PageHeader
       title={title}
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
+    <section className="section">
+      <div className="container">
+        <Content source={section1} />
+      </div>
+    </section>
 
     <section className="section">
       <div className="container">
-        <Content source={body} />
-        <SVGIcon src="/images/calendar.svg" />
+        <Content source={section2} />
+      </div>
+    </section>
+
+    <section className="section">
+      <div className="container">
+        <Accordion items={accordion} />
       </div>
     </section>
   </main>
@@ -46,8 +59,18 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        template
         subtitle
         featuredImage
+        section1
+        section2
+        video
+        videoPoster
+        videoTitle
+        accordion {
+          title
+          description
+        }
       }
     }
   }

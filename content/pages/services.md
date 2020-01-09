@@ -1,7 +1,7 @@
 ---
-template: ComponentsPage
-slug: components
-title: Components Page
+template: DefaultPage
+slug: services
+title: Services
 featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
 subtitle: This is the components page subtitle.
 section1: >-
