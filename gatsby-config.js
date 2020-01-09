@@ -3,7 +3,7 @@ const postcssPresetEnv = require('postcss-preset-env')
 module.exports = {
   siteMetadata: {
     title: 'Gant Professional Services',
-    siteUrl: 'https://gantprofessionalservices.info'
+    siteUrl: 'https://gantprofessionalservices.info' 
   },
   plugins: [
     'gatsby-plugin-react-helmet',
