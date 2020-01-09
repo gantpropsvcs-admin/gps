@@ -1,19 +1,21 @@
 # See https://github.com/netlify/netlify-cms/blob/master/example/config.yml
 backend:
   name: git-gateway
+  repo: 
   branch: master # Branch to update (optional; defaults to master)
 
-# display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CMS
+# global
 media_library:
-  name: uploadcare
+  name: cloudinary
+  output_filename_only: false
   config:
-    publicKey: a73a170cb5cdef662983
-    multiple: false
-    tabs: 'file camera url facebook gdrive'
-    effects: 'crop,rotate,enhance,grayscale'
-    imageShrink: '2000x2000'
-    previewStep: true
-    clearable: true
+    cloud_name: thewanderinggants
+    api_key: 216627959337642
+    default_transformations:
+      -   - fetch_format: auto
+            width: 1600
+            quality: auto
+            crop: scale
 
 collections: # A list of collections the CMS should be able to edit
   - name: 'pages'
