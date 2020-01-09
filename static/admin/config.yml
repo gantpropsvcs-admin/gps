@@ -9,8 +9,8 @@ media_library:
   name: cloudinary
   output_filename_only: false
   config:
-    cloud_name: thewanderinggants
-    api_key: 216627959337642
+    cloud_name: 'thewanderinggants'
+    api_key: '216627959337642'
     default_transformations:
       -   - fetch_format: auto
             width: 1600
