@@ -2,7 +2,7 @@
 template: HomePage
 slug: ''
 title: Gant Professional Services
-featuredImage: './images/homehero.png'
+featuredImage: '../images/homehero.png'
 subtitle: |-
   Admin. Social media. IT. Graphics Design.  
 
