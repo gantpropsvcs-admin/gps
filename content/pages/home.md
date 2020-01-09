@@ -2,7 +2,7 @@
 template: HomePage
 slug: ''
 title: Gant Professional Services
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
+featuredImage: './images/homehero.png'
 subtitle: |-
   Admin. Social media. IT. Graphics Design.  
 
