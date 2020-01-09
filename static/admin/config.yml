@@ -6,7 +6,7 @@ backend:
 
 # global
 media_library:
-  name: cloudinary
+  name: "cloudinary"
   output_filename_only: false
   config:
     cloud_name: 'thewanderinggants'
