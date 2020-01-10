@@ -64,6 +64,7 @@ collections: # A list of collections the CMS should be able to edit
                 widget: boolean,
                 required: false,
               }
+              
       - file: 'content/pages/services.md'
         label: 'Services Page'
         name: 'services-page'
