@@ -490,3 +490,13 @@ collections: # A list of collections the CMS should be able to edit
               widget: string,
               required: false,
             }
+      - file: content/settings/navigation.yml
+        label: Navigation
+        name: navigation
+        fields:
+          - label: Navigation
+            name: nav_items
+            widget: list
+            fields:
+              - {label: Label, name: label, widget: string}
+              - {label: Path, name: path, widget: string}      
