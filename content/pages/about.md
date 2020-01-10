@@ -4,7 +4,7 @@ slug: about
 title: Who is GPS?
 featuredImage: 'https://ucarecdn.com/b6254577-26bf-4b79-aa9b-f3793e2aebdc/'
 subtitle: This is the blog page subtitle.
-section1:>-
+section1: >-
   ## This is a container component
 
   A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur
@@ -17,7 +17,7 @@ section1:>-
   vel est ut proin dis auctor. Suscipit sceler isque orci magna interdum vel
   bibendum duis netus a consectetur dui magnis ac aliquet sem posuere tincidunt
   vestibulum.
-section2:>-
+section2: >-
   ## This is a container component
 
   A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur
