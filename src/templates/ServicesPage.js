@@ -13,6 +13,7 @@ export const ServicesPageTemplate = ({
   featuredImage,
   section1,
   section2,
+  accordion,
   body,
 }) => (
   <main>
