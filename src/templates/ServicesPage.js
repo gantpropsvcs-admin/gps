@@ -52,7 +52,7 @@ const ServicesPage = ({ data: { page } }) => (
 export default ServicesPage
 
 export const pageQuery = graphql`
-  query ServicesPagePage($id: String!) {
+  query ServicesPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       html
