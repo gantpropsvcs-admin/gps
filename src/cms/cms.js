@@ -8,6 +8,8 @@ import { ContactPageTemplate } from '../templates/ContactPage'
 import { DefaultPageTemplate } from '../templates/DefaultPage'
 import { BlogIndexTemplate } from '../templates/BlogIndex'
 import { SinglePostTemplate } from '../templates/SinglePost'
+import { ServicesPageTemplate } from '../templates/ServicesPage'
+import { AboutPageTemplate } from '../templates/AboutPage'
 
 if (
   window.location.hostname === 'localhost' &&
@@ -37,4 +39,10 @@ CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
 ))
 CMS.registerPreviewTemplate('posts', ({ entry }) => (
   <SinglePostTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('about-page', ({ entry }) => (
+  <AboutPageTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('services-page', ({ entry }) => (
+  <ServicesPageTemplate {...entry.toJS().data} />
 ))
