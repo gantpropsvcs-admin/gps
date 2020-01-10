@@ -32,7 +32,7 @@ collections: # A list of collections the CMS should be able to edit
             label: Template,
             name: template,
             widget: hidden,
-            default: ComponentsPage,
+            default: AboutPage,
           }
         - { label: Slug, name: slug, widget: hidden, default: 'components' }
         - { label: Title, name: title, widget: string }
@@ -40,6 +40,52 @@ collections: # A list of collections the CMS should be able to edit
         - { label: Subtitle, name: subtitle, widget: markdown }
         - { label: Section 1, name: section1, widget: markdown }
         - { label: Section 2, name: section2, widget: markdown }
+        - label: 'Meta'
+          required: false
+          name: 'meta'
+          widget: 'object'
+          fields:
+            - { label: Title, name: title, widget: string, required: false }
+            - {
+                label: Description,
+                name: description,
+                widget: text,
+                required: false,
+              }
+            - {
+                label: Canonical Link,
+                name: canonicalLink,
+                widget: string,
+                required: false,
+              }
+            - {
+                label: Noindex,
+                name: noindex,
+                widget: boolean,
+                required: false,
+              }
+      - file: 'content/pages/services.md'
+        label: 'Services Page'
+        name: 'service-page'
+        fields:
+        - {
+            label: Template,
+            name: template,
+            widget: hidden,
+            default: ServicesPage,
+          }
+        - { label: Slug, name: slug, widget: hidden, default: 'components' }
+        - { label: Title, name: title, widget: string }
+        - { label: Featured Images, name: featuredImage, widget: image }
+        - { label: Subtitle, name: subtitle, widget: markdown }
+        - { label: Section 1, name: section1, widget: markdown }
+        - { label: Section 2, name: section2, widget: markdown }
+        - label: 'accordion'
+            name: 'accordion'
+            widget: 'list'
+            fields:
+              - { name: title, label: title, widget: string, default: '' }
+              - { name: description, label: description, widget: string }
         - label: 'Meta'
           required: false
           name: 'meta'
