@@ -1,4 +1,9 @@
-nav_items: 
-  - {label: 'Home', path: '/'}
-  - {label: 'Products', path: '/products/'}
-  - {label: 'News', path: '/news/'}
+nav_items:
+  - label: Home
+    path: /
+  - label: Services
+    path: /services/
+  - label: Who is GPS?
+    path: /about/
+  - label: Contact
+    path: /contact/
