@@ -6,7 +6,9 @@ backend:
 
 # global
 media_library:
-  name: 'cloudinary'
+  name: cloudinary
+  cloud_name: thewanderinggants
+  api_key: 216627959337642  
   output_filename_only: false
   config:
     default_transformations:
@@ -14,8 +16,7 @@ media_library:
                     quality: auto
                   - width: 300
                     crop: scale
-    cloud_name: 'thewanderinggants'
-    api_key: '216627959337642'
+
 
 collections: # A list of collections the CMS should be able to edit
   - name: 'pages'
